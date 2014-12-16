@@ -1,8 +1,7 @@
 /*
  * Author:Jinglu.Yan
  * Date:2010/12/4
- * Aim:this class is a mini database, records are all saved in this calss. 
- * There are nine methods.Two of them are constructor, others four are get the value or set in this class.
+ * Aim:this class is a mini database, records are all saved in this class. 
  */
 import java.util.*;
 public class Archive
@@ -95,7 +94,7 @@ public class Archive
         return year;
     }
    /*
-    * This method gets the array
+    * This method gets array
     */
     public double[] getValue(){
         return rainfallvalue;
